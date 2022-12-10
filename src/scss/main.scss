@@ -1,0 +1,369 @@
+@use "./abstracts/" as *;
+@use "./base/" as *;
+
+body {
+  background-color: var(--offWhite);
+  overflow-x: hidden;
+}
+
+.logo-wrapper {
+  padding-top: rem(40);
+  padding-bottom: rem(64);
+
+  @include breakpoint(tablet) {
+    padding-top: rem(62);
+    padding-bottom: rem(95);
+  }
+}
+
+.art-wrapper {
+  display: none;
+  position: absolute;
+  top: 0;
+  right: -40px;
+
+  @include breakpoint(tablet) {
+    max-width: rem(266);
+    top: -40px;
+    display: block;
+  }
+
+  @include breakpoint(desktop) {
+    right: 0px;
+    max-width: rem(312);
+  }
+}
+
+.hero-section {
+  padding-inline: 24px;
+  max-width: rem(520);
+  margin: 0 auto;
+
+  @include breakpoint(tablet) {
+    padding-inline: rem(0);
+    max-width: rem(696);
+
+    p {
+      max-width: rem(514);
+    }
+  }
+
+  @include breakpoint(desktop) {
+    max-width: rem(1110);
+    padding-inline: rem(24);
+
+    p {
+      max-width: rem(825);
+    }
+  }
+
+  h1 {
+    padding-bottom: rem(20);
+    max-width: rem(520);
+
+    @include breakpoint(tablet) {
+      margin-bottom: rem(28);
+    }
+
+    @include breakpoint(desktop) {
+      margin-bottom: rem(40);
+      max-width: rem(1015);
+    }
+  }
+
+  &::after {
+    content: "";
+    width: 120%;
+    background-image: url("../assets/bg-main-mobile.png");
+    background-size: cover;
+    background-position: top;
+    position: absolute;
+    top: rem(-300);
+    right: rem(-205);
+    height: 100%;
+
+    @include breakpoint(tablet) {
+      background-image: url("../assets/bg-main-tablet.png");
+      width: rem(983);
+      height: rem(808);
+      right: rem(35);
+    }
+
+    @include breakpoint(desktop) {
+      background-image: url("../assets/bg-main-desktop.png");
+      background-position: top;
+      background-repeat: no-repeat;
+      width: 120%;
+      left: -150px;
+      top: -250px;
+      height: rem(1700);
+    }
+  }
+}
+
+.hero-content {
+  padding-bottom: rem(166);
+
+  @include breakpoint(desktop) {
+    padding-bottom: rem(321);
+  }
+}
+
+main {
+  width: 100%;
+  height: rem(600);
+  position: relative;
+  z-index: 0;
+  border-radius: rem(12);
+  margin-bottom: rem(400);
+
+  @include breakpoint(tablet) {
+    // padding-inline: rem(32);
+    margin: 0 auto;
+    max-width: rem(696);
+    margin-bottom: rem(200);
+  }
+
+  @include breakpoint(desktop) {
+    max-width: rem(1110);
+    padding-inline: rem(24);
+  }
+}
+
+.cta-section {
+  background: var(--offBlack);
+  border-radius: rem(12);
+  height: rem(600);
+  @include breakpoint(tablet) {
+    padding-left: rem(64);
+    padding-right: rem(58);
+  }
+
+  @include breakpoint(desktop) {
+    padding-inline: rem(118);
+  }
+
+  .cta-art-wrapper {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 20px;
+
+    @include breakpoint(desktop) {
+      position: absolute;
+      right: 100px;
+    }
+  }
+}
+
+.card {
+  position: absolute;
+  top: 425px;
+  width: 100%;
+  border-radius: rem(12);
+  display: flex;
+  flex-direction: column;
+  padding: 48px 36px;
+  color: var(--offWhite);
+
+  @include breakpoint(tablet) {
+    max-width: rem(399);
+    z-index: 2;
+    top: 200px;
+    left: 235px;
+  }
+
+  @include breakpoint(desktop) {
+    left: 600px;
+    top: 130px;
+  }
+
+  h2 {
+    padding-bottom: rem(12);
+  }
+
+  p {
+    font-size: rem(18);
+  }
+
+  .price {
+    font-size: rem(65);
+    font-weight: 700;
+    margin-right: rem(16);
+  }
+
+  h4 {
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    height: rem(56);
+    margin-top: rem(36);
+    margin-bottom: rem(30);
+  }
+
+  button {
+    background: var(--offBlack);
+    border: none;
+    color: inherit;
+    width: 100%;
+
+    &:not(:last-of-type) {
+      margin-bottom: rem(16);
+    }
+  }
+
+  .button-content {
+    display: flex;
+    flex-direction: column;
+
+    .apple-btn {
+      padding: 1rem 0rem;
+      font-weight: 700;
+      border-radius: rem(12);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: rem(8);
+      color: var(--offWhite);
+      transition: all 200ms ease-in;
+
+      &:hover {
+        background-color: var(--lightBlue);
+        cursor: pointer;
+      }
+    }
+
+    .android-btn {
+      padding: 1rem 0rem;
+      font-weight: 700;
+      border-radius: rem(12);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: rem(8);
+      color: var(--offBlack);
+      background: var(--offWhite);
+      transition: all 200ms ease-in;
+
+      &:hover {
+        background-color: var(--gold);
+        cursor: pointer;
+      }
+    }
+  }
+
+  background: var(--orange);
+}
+
+.phone-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+  top: -550px;
+
+  @include breakpoint(tablet) {
+    justify-content: flex-start;
+  }
+
+  @include breakpoint(desktop) {
+    position: absolute;
+    top: -175px;
+    left: 130px;
+  }
+}
+
+.phone {
+  max-width: rem(209);
+
+  @include breakpoint(tablet) {
+    max-width: rem(270);
+  }
+
+  @include breakpoint(desktop) {
+    max-width: rem(312);
+  }
+}
+
+.icon-wrapper {
+  display: flex;
+  align-items: center;
+  gap: rem(20);
+  max-width: rem(100);
+  margin-top: rem(64);
+  margin-bottom: rem(80);
+
+  @include breakpoint(tablet) {
+    position: relative;
+    top: 40px;
+  }
+
+  @include breakpoint(desktop) {
+    position: none;
+    top: 0px;
+  }
+}
+
+.logo-wrapper-footer {
+  padding-bottom: rem(32);
+  padding-top: rem(20);
+}
+
+footer {
+  margin: 0 auto;
+  padding-inline: rem(25);
+
+  @include breakpoint(desktop) {
+    margin-bottom: rem(79);
+  }
+
+  .footer-text {
+    font-size: 1rem;
+    max-width: rem(327);
+
+    @include breakpoint(tablet) {
+      max-width: rem(366);
+    }
+  }
+
+  @include breakpoint(tablet) {
+    max-width: 43.5rem;
+    padding-inline: rem(0);
+  }
+
+  @include breakpoint(desktop) {
+    max-width: 69.375rem;
+    padding-inline: rem(24);
+  }
+
+  .footer-container {
+    @include breakpoint(tablet) {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+}
+
+.icon {
+  transition: all 200ms ease-in;
+}
+
+.icon:hover {
+  fill: #fa7453;
+  transform: scale(1.2) rotate(-5deg);
+  cursor: pointer;
+}
+
+.footer-flex {
+  @include breakpoint(desktop) {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+
+    .footer-text {
+      margin-left: rem(140);
+    }
+  }
+}
