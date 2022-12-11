@@ -174,8 +174,8 @@ body {
 
 .hero-section:after {
   content: "";
-  width: 30rem;
-  height: 100%;
+  width: 36.25rem;
+  height: 62.5rem;
   background-image: url("bg-main-mobile.f2df230d.png");
   background-position: top;
   background-repeat: no-repeat;
