@@ -73,13 +73,14 @@ body {
 
   &::after {
     content: "";
-    width: 120%;
+    width: rem(480);
     background-image: url("../assets/bg-main-mobile.png");
     background-size: cover;
+    background-repeat: no-repeat;
     background-position: top;
     position: absolute;
     top: rem(-300);
-    right: rem(-205);
+    right: rem(-300);
     height: 100%;
 
     @include breakpoint(tablet) {

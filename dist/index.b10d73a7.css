@@ -174,14 +174,15 @@ body {
 
 .hero-section:after {
   content: "";
-  width: 120%;
+  width: 30rem;
   height: 100%;
   background-image: url("bg-main-mobile.f2df230d.png");
   background-position: top;
+  background-repeat: no-repeat;
   background-size: cover;
   position: absolute;
   top: -18.75rem;
-  right: -12.8125rem;
+  right: -18.75rem;
 }
 
 @media (min-width: 48rem) {
