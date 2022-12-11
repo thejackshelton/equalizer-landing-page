@@ -432,7 +432,7 @@ main {
 @media (min-width: 78.125rem) {
   .icon-wrapper {
     position: none;
-    top: 0;
+    top: 20px;
   }
 }
 
@@ -496,7 +496,7 @@ footer .footer-text {
 @media (min-width: 78.125rem) {
   .footer-flex {
     justify-content: space-around;
-    align-items: flex-start;
+    align-items: flex-end;
     display: flex;
   }
 

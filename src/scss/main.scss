@@ -302,7 +302,7 @@ main {
 
   @include breakpoint(desktop) {
     position: none;
-    top: 0px;
+    top: 20px;
   }
 }
 
@@ -361,7 +361,7 @@ footer {
   @include breakpoint(desktop) {
     display: flex;
     justify-content: space-around;
-    align-items: flex-start;
+    align-items: flex-end;
 
     .footer-text {
       margin-left: rem(140);
