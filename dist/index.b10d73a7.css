@@ -77,6 +77,12 @@ p {
   font-size: var(--fs-p);
 }
 
+@media (min-width: 78.125rem) {
+  p {
+    line-height: 1.5;
+  }
+}
+
 h2 {
   font-weight: 700;
   font-size: var(--fs-h2);
@@ -306,6 +312,7 @@ main {
 
 .card p {
   font-size: 1.125rem;
+  line-height: 1.5;
 }
 
 .card .price {

@@ -31,6 +31,10 @@ h1 {
 p {
   font-weight: 400;
   font-size: var(--fs-p);
+
+  @include breakpoint(desktop) {
+    line-height: 1.5;
+  }
 }
 
 h2 {
