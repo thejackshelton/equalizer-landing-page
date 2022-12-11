@@ -1,4 +1,4 @@
-4390
+4389
 77C:\Users\jacks\Code\FEM\equalizer-landing-page\node_modules\has-flag\index.js133147389429601093 0
 90C:\Users\jacks\Code\FEM\equalizer-landing-page\node_modules\type-fest\ts41\kebab-case.d.ts133147389432753282 0
 114C:\Users\jacks\Code\FEM\equalizer-landing-page\node_modules\@parcel\workers\test\integration\workerfarm\logging.js133147389432843039 0
@@ -48,7 +48,7 @@
 88C:\Users\jacks\Code\FEM\equalizer-landing-page\node_modules\weak-lru-cache\tests\test.js133147389431256980 0
 138C:\Users\jacks\Code\FEM\equalizer-landing-page\node_modules\@parcel\core\test\fixtures\plugins\node_modules\parcel-transformer-bad-engines133147389435651036 1
 99C:\Users\jacks\Code\FEM\equalizer-landing-page\node_modules\utility-types\dist\utility-types.js.map133147389432089926 0
-56C:\Users\jacks\Code\FEM\equalizer-landing-page\README.md133147505470859730 0
+56C:\Users\jacks\Code\FEM\equalizer-landing-page\README.md133152068837935145 0
 91C:\Users\jacks\Code\FEM\equalizer-landing-page\node_modules\caniuse-lite\data\regions\NZ.js133147389438543703 0
 77C:\Users\jacks\Code\FEM\equalizer-landing-page\node_modules\terser\PATRONS.md133147389434314268 0
 57C:\Users\jacks\Code\FEM\equalizer-landing-page\src\assets133147505473540267 1
@@ -59,16 +59,6 @@
 96C:\Users\jacks\Code\FEM\equalizer-landing-page\node_modules\svgo\plugins\removeOffCanvasPaths.js133147389434064936 0
 93C:\Users\jacks\Code\FEM\equalizer-landing-page\node_modules\escape-string-regexp\package.json133147389429142276 0
 58C:\Users\jacks\Code\FEM\equalizer-landing-page\preview.jpg133147505470685696 0
-82C:\Users\jacks\Code\FEM\equalizer-landing-page\node_modules\mdn-data\l10n\css.json133147389431840566 0
-74C:\Users\jacks\Code\FEM\equalizer-landing-page\node_modules\@parcel\events133147389432249470 1
-83C:\Users\jacks\Code\FEM\equalizer-landing-page\node_modules\svgo\plugins\plugins.js133147389433561159 0
-103C:\Users\jacks\Code\FEM\equalizer-landing-page\node_modules\@parcel\utils\test\input\config\config.json133147389434593557 0
-98C:\Users\jacks\Code\FEM\equalizer-landing-page\node_modules\@swc\helpers\lib\_non_iterable_rest.js133147389434154700 0
-65C:\Users\jacks\Code\FEM\equalizer-landing-page\README-template.md133147505471050341 0
-108C:\Users\jacks\Code\FEM\equalizer-landing-page\node_modules\caniuse-lite\data\features\css-cascade-layers.js133147389435207057 0
-69C:\Users\jacks\Code\FEM\equalizer-landing-page\node_modules\@trysound133147389421371294 1
-79C:\Users\jacks\Code\FEM\equalizer-landing-page\node_modules\json5\dist\index.js133147389430573652 0
-76C:\Users\jacks\Code\FEM\equalizer-landing-page\src\assets\bg-main-mobile.png133147505472302083 0
 169C:\Users\jacks\Code\FEM\equalizer-landing-page\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\.pnpm\source-pnpm@1.0.0\node_modules\source-pnpm\dist.js133147389432833072 0
 77C:\Users\jacks\Code\FEM\equalizer-landing-page\node_modules\binary-extensions133147389026467107 1
 50C:\Users\jacks\Code\FEM\equalizer-landing-page\src133147505813034138 1
@@ -91,7 +81,7 @@
 68C:\Users\jacks\Code\FEM\equalizer-landing-page\node_modules\lmdb\src133147389434877951 1
 88C:\Users\jacks\Code\FEM\equalizer-landing-page\node_modules\entities\lib\encode.d.ts.map133147389432733327 0
 89C:\Users\jacks\Code\FEM\equalizer-landing-page\node_modules\@swc\helpers\lib\_inherits.js133147389433745787 0
-65C:\Users\jacks\Code\FEM\equalizer-landing-page\src\scss\main.scss133152056982812012 0
+65C:\Users\jacks\Code\FEM\equalizer-landing-page\src\scss\main.scss133152057341853528 0
 96C:\Users\jacks\Code\FEM\equalizer-landing-page\node_modules\@parcel\transformer-svg\package.json133147389431710919 0
 68C:\Users\jacks\Code\FEM\equalizer-landing-page\node_modules\chokidar133147389026497036 1
 108C:\Users\jacks\Code\FEM\equalizer-landing-page\node_modules\@parcel\core\src\requests\ParcelConfigRequest.js133147389434957722 0
@@ -146,6 +136,14 @@
 104C:\Users\jacks\Code\FEM\equalizer-landing-page\node_modules\caniuse-lite\data\features\form-attribute.js133147389436723345 0
 95C:\Users\jacks\Code\FEM\equalizer-landing-page\node_modules\caniuse-lite\data\features\webgl.js133147389441002648 0
 106C:\Users\jacks\Code\FEM\equalizer-landing-page\node_modules\caniuse-lite\data\features\intl-pluralrules.js133147389437561144 0
+82C:\Users\jacks\Code\FEM\equalizer-landing-page\node_modules\mdn-data\l10n\css.json133147389431840566 0
+74C:\Users\jacks\Code\FEM\equalizer-landing-page\node_modules\@parcel\events133147389432249470 1
+83C:\Users\jacks\Code\FEM\equalizer-landing-page\node_modules\svgo\plugins\plugins.js133147389433561159 0
+103C:\Users\jacks\Code\FEM\equalizer-landing-page\node_modules\@parcel\utils\test\input\config\config.json133147389434593557 0
+108C:\Users\jacks\Code\FEM\equalizer-landing-page\node_modules\caniuse-lite\data\features\css-cascade-layers.js133147389435207057 0
+69C:\Users\jacks\Code\FEM\equalizer-landing-page\node_modules\@trysound133147389421371294 1
+79C:\Users\jacks\Code\FEM\equalizer-landing-page\node_modules\json5\dist\index.js133147389430573652 0
+76C:\Users\jacks\Code\FEM\equalizer-landing-page\src\assets\bg-main-mobile.png133147505472302083 0
 89C:\Users\jacks\Code\FEM\equalizer-landing-page\node_modules\weak-lru-cache\LRFUExpirer.js133147389430818158 0
 89C:\Users\jacks\Code\FEM\equalizer-landing-page\node_modules\@parcel\utils\src\debounce.js133147389432379125 0
 76C:\Users\jacks\Code\FEM\equalizer-landing-page\src\assets\bg-main-tablet.png133147505472600507 0
@@ -892,8 +890,8 @@
 90C:\Users\jacks\Code\FEM\equalizer-landing-page\node_modules\@swc\helpers\lib\_construct.js133147389433421488 0
 103C:\Users\jacks\Code\FEM\equalizer-landing-page\node_modules\@parcel\transformer-svg\lib\dependencies.js133147389429491373 0
 91C:\Users\jacks\Code\FEM\equalizer-landing-page\node_modules\caniuse-lite\data\regions\AZ.js133147389433915344 0
-91C:\Users\jacks\Code\FEM\equalizer-landing-page\node_modules\source-map-support\package.json133147389431157236 0
 80C:\Users\jacks\Code\FEM\equalizer-landing-page\node_modules\weak-lru-cache\tests133147389431207112 1
+91C:\Users\jacks\Code\FEM\equalizer-landing-page\node_modules\source-map-support\package.json133147389431157236 0
 76C:\Users\jacks\Code\FEM\equalizer-landing-page\node_modules\msgpackr\pack.js133147389432409044 0
 109C:\Users\jacks\Code\FEM\equalizer-landing-page\node_modules\@parcel\source-map\parcel_sourcemap_node\build.rs133147389434688455 0
 91C:\Users\jacks\Code\FEM\equalizer-landing-page\node_modules\caniuse-lite\data\regions\SN.js133147389439990192 0
@@ -1311,8 +1309,8 @@
 91C:\Users\jacks\Code\FEM\equalizer-landing-page\node_modules\caniuse-lite\data\regions\KZ.js133147389437935313 0
 88C:\Users\jacks\Code\FEM\equalizer-landing-page\node_modules\lightningcss\node\index.d.ts133147389431760784 0
 87C:\Users\jacks\Code\FEM\equalizer-landing-page\node_modules\svgo\plugins\removeXMLNS.js133147389434284357 0
-91C:\Users\jacks\Code\FEM\equalizer-landing-page\node_modules\caniuse-lite\data\regions\VU.js133147389440942809 0
 108C:\Users\jacks\Code\FEM\equalizer-landing-page\node_modules\source-map-support\browser-source-map-support.js133147389429331754 0
+91C:\Users\jacks\Code\FEM\equalizer-landing-page\node_modules\caniuse-lite\data\regions\VU.js133147389440942809 0
 91C:\Users\jacks\Code\FEM\equalizer-landing-page\node_modules\caniuse-lite\data\regions\BI.js133147389434334210 0
 87C:\Users\jacks\Code\FEM\equalizer-landing-page\node_modules\@parcel\events\lib\index.js133147389431476386 0
 84C:\Users\jacks\Code\FEM\equalizer-landing-page\node_modules\normalize-path\README.md133147389026417233 0
@@ -2162,9 +2160,9 @@
 92C:\Users\jacks\Code\FEM\equalizer-landing-page\node_modules\@parcel\source-map\dist\types.js133147389432428994 0
 83C:\Users\jacks\Code\FEM\equalizer-landing-page\node_modules\is-extglob\package.json133147389026337700 0
 83C:\Users\jacks\Code\FEM\equalizer-landing-page\node_modules\@parcel\fs\package.json133147389432219554 0
-90C:\Users\jacks\Code\FEM\equalizer-landing-page\node_modules\@parcel\cache\src\LMDBCache.js133147389432040041 0
 80C:\Users\jacks\Code\FEM\equalizer-landing-page\node_modules\is-extglob\README.md133147389026377323 0
 107C:\Users\jacks\Code\FEM\equalizer-landing-page\node_modules\@parcel\transformer-html\src\HTMLTransformer.js133147389431137293 0
+90C:\Users\jacks\Code\FEM\equalizer-landing-page\node_modules\@parcel\cache\src\LMDBCache.js133147389432040041 0
 114C:\Users\jacks\Code\FEM\equalizer-landing-page\node_modules\@parcel\runtime-browser-hmr\src\loaders\.eslintrc.json133147389431556200 0
 91C:\Users\jacks\Code\FEM\equalizer-landing-page\node_modules\caniuse-lite\data\regions\NU.js133147389438533736 0
 87C:\Users\jacks\Code\FEM\equalizer-landing-page\node_modules\is-binary-path\package.json133147389026347405 0
@@ -3609,6 +3607,7 @@
 104C:\Users\jacks\Code\FEM\equalizer-landing-page\node_modules\@swc\helpers\lib\_interop_require_default.js133147389433915344 0
 99C:\Users\jacks\Code\FEM\equalizer-landing-page\node_modules\@swc\helpers\lib\_is_native_function.js133147389433965208 0
 108C:\Users\jacks\Code\FEM\equalizer-landing-page\node_modules\@swc\helpers\lib\_is_native_reflect_construct.js133147389433995120 0
+98C:\Users\jacks\Code\FEM\equalizer-landing-page\node_modules\@swc\helpers\lib\_non_iterable_rest.js133147389434154700 0
 100C:\Users\jacks\Code\FEM\equalizer-landing-page\node_modules\@swc\helpers\lib\_object_spread_props.js133147389434214532 0
 96C:\Users\jacks\Code\FEM\equalizer-landing-page\node_modules\@swc\helpers\lib\_read_only_error.js133147389434294334 0
 97C:\Users\jacks\Code\FEM\equalizer-landing-page\node_modules\@swc\helpers\lib\_set_prototype_of.js133147389434334210 0
