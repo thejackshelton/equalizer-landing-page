@@ -197,7 +197,7 @@ body {
 @media (min-width: 78.125rem) {
   .hero-section:after {
     width: 120%;
-    height: 106.25rem;
+    height: 112.5rem;
     background-image: url("bg-main-desktop.b5b490ae.png");
     background-position: top;
     background-repeat: no-repeat;
